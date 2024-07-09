@@ -10,6 +10,9 @@ export class ListComponent{
 
     @Input()
     public characterList: Character[] = [
+
+      // se esta jalando los valores de main.page.component.ts y se esta mostrando en list.component.html
+      // por medio de la anotacion @Input()
     ];
 
 }
