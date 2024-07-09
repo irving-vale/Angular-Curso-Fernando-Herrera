@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Character } from '../interfaces/character.interface';
+import { Character } from './../interfaces/character.interface';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dbz-main-page',
@@ -21,5 +21,10 @@ export class MainPageComponent {
   power: 7500
 }
 ];
+
+onNewCharacter( character: Character) : void {
+  console.log('Main Page Component');
+  console.log(character);
+}
 
 }
