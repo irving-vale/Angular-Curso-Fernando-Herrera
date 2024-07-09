@@ -7,7 +7,8 @@ import { Character } from '../interfaces/character.interface';
 })
 
 export class MainPageComponent {
- public characters: Character[] = [{
+
+  public characters: Character[] = [{
   name: 'Krillin',
   power: 1000
  },
