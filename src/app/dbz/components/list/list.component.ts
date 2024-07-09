@@ -9,11 +9,7 @@ import { Character } from '../../interfaces/character.interface';
 export class ListComponent{
 
     @Input()
-    public characterList: Character[] = [{
-      name: 'Trunks',
-      power: 1000
-    },
-
+    public characterList: Character[] = [
     ];
 
 }
